@@ -1,0 +1,5 @@
+# Core project (database + CLI app + tests) needs NOTHING beyond Python 3.8+ standard library.
+# Optional tools:
+matplotlib>=3.5      # app/reports.py charts
+graphviz>=0.20       # scripts/build_er_diagram.py (also install the Graphviz program: https://graphviz.org/download/)
+python-docx>=1.1     # scripts/build_report.py
